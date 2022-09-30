@@ -1,16 +1,66 @@
-/* {
-    margin:0%;
-    padding:0%;
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #191820 16.62%, #52608e 85.61%);
 }
 
-body {
-    background-position: top center;
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    background-color: #38387c;
-}*/
+.navbar {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
 
-div front {
-    text-align: center;
+.navbar_img {
+    width: 70px;
+    height: 70px;
+}
+
+.navbar_title {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: #FFF2E7;
+}
+
+.front {
+    padding: 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.front_title {
+    font-family: 'Sarala', sans-serif;
+    color: #030303;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+.front_text {
+    font-family: 'Sarala', sans-serif;
+    color: #0c0c0c;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.front_img {
+    width: 600px;
+    height: 400px;
+    padding: 30px;
+    transition: transform .4s;
+}
+
+.front_img:hover {
+    transform: scale(1.13);
 }
